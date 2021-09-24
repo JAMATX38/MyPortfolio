@@ -1,0 +1,175 @@
+
+
+
+
+
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: bold;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 h2 h3 {
+    margin: 0%;
+}
+
+p {
+    border: 16px black;
+    padding: 10px;
+    color:white;
+    font-size: xx-large;
+}
+
+.flex-container {
+
+    display:flex; 
+    flex-wrap: center;
+    border: 2px black;
+}
+
+.nav {
+    background-color: purple;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: auto;
+}
+.nav a {
+    color:white;
+    text-decoration: none;
+    margin-right: 15px;
+    padding: 10px;
+}
+.section {
+    background-color: blueviolet;
+    display:flex;
+    justify-content: space-around;
+    color:white
+}
+
+.section--about-me {
+    background-color: blueviolet;
+    flex: 0 0 65%;
+    
+    
+}
+.section a{
+    color:white;
+    font-size: xx-large;
+    margin-right: 15px;
+    padding-top: 10%;
+    padding-right: 3%;
+    align-items: center;
+}
+
+.section a:hover{
+    cursor:pointer;
+    color:lavender;
+}
+.vetical {
+    list-style-type: none;
+  margin: 30px;
+  padding: 5px;
+  width: 450px;
+  background-color: blueviolet;
+  color:white;
+  font-size: 100px;
+  justify-content: flex-end;
+  text-align: center;
+}
+
+
+.box-around {
+    height: 100px;
+    width: 100px;
+    
+    justify-content: center;
+    font-size: 100px;
+
+}
+
+#box1 {
+    
+    height: 40px;
+    width: 1250px;
+    padding: 10px;
+    border: solid 3px black;
+    background-color: tomato;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+
+}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    
+    width: 50%;
+    margin: 0 auto;
+}
+
+.grid-image {
+    display: block;    
+    flex-basis: 50%;
+    box-sizing: border-box;
+    
+    
+}
+
+#button_1 {
+    color: white;
+    background-color: pink;
+    justify-content: flex-end;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color:rgb(226, 223, 43);
+    font-family: Impact, fantasy ;
+    font-weight:bolder bold ; 
+    font-size: xx-large;
+  }
+
+  .centered {
+    position: absolute;
+    top: 61%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+  }
+
+  .bottom-left {
+    position: absolute;
+    bottom: 78px;
+    left: 16px;
+  }
+
+  .bottom-right {
+    position: absolute;
+    bottom: 78px;
+    right: 16px;
+  }
+
+  .top-left {
+    position: absolute;
+    top: 398px;
+    left: 16px;
+  }
+
+  .bottom-left_left {
+    position: absolute;
+    bottom: 63px;
+    left: 16px;
+    font-size: large;
+  }
+  .centered-left_center {
+    position: absolute;
+    top: 61%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    font-size: large;
+  }
